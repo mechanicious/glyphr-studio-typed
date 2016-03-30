@@ -1,10 +1,9 @@
 import {Route} from './Route';
 import {helpers as _h} from "./../helpers";
-
-type Map<V> = { [s: string]: V; };
+import {Type} from "./../support/Type";
 
 export class Router {
-    routes: Map<(route: Route) => void>;
+    routes: Type.Map<(route: Route) => void>;
 
     constructor() {
         var _this = this;
