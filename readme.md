@@ -1,5 +1,5 @@
-```
 dristributed with
+```
 src
     js
         glyphr
@@ -7,4 +7,8 @@ src
     index.html
 ```
 
+src
 `npm install && bower install && typings install && bower-installer`
+
+dist
+`webpack src/js/glyphr/main.js` --output-file bundle.js`
