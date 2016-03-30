@@ -1,0 +1,32 @@
+{
+  "name": "glyphr-studio",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Matt <yuokhi@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.2.0",
+    "jquery": "^2.2.2",
+    "mustache.js": "mustache#^2.2.1"
+  },
+  "install": {
+    "path": {
+      "css": "src/css",
+      "js": "src/js"
+    }
+  },
+  "sources": {
+    "*": "bower_components/*"
+  }
+}
